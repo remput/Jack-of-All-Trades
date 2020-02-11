@@ -1,0 +1,20 @@
+#!/bin/sh
+dir=~/JoAT/Ps_Manager/saved1
+if [ -d "$dir" ]
+then
+echo ""
+else
+mkdir ~/JoAT/Ps_Manager/saved1
+echo "Dir created"
+fi
+
+file=~/JoAT/Ps_Manager/saved1/ps_1.txt
+if [ -f "$file" ]
+then
+ps > ~/JoAT/Ps_Manager/saved1/ps_2.txt
+echo "Process #2 saved"
+else
+ps > ~/JoAT/Ps_Manager/saved1/ps_1.txt
+echo "Process #1 saved"
+fi
+

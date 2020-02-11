@@ -1,0 +1,3 @@
+#!/bin/sh
+encfs ~/.encrypted ~/encrypted
+echo "Encrypted Directory Mounted"

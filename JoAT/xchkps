@@ -1,8 +1,8 @@
 #!/bin/sh
-echo "New process(es) found: "
-comm -23 ~/JoAT/saved/ps_1.txt ~/JoAT/saved/ps_2.txt
-rm -r ~/JoAT/saved
-echo "Would you like to kill the process?"
+echo "Would you like to: "
+echo "1: Compare two ps log files manually saved? (Please run xcreatepslog twice first)"
+echo "2: Compare current ps log vs baseline ps log saved beforehand (Please run xsavebaseline first)"
+echo "3: Save ps log with current timestamp"
 
-#Read Y/N
+
 

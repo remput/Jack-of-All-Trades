@@ -1,0 +1,11 @@
+#!/bin/sh
+dir=~/JoAT/Ps_Manager/saved
+if [ -d "$dir" ]
+then
+echo ""
+else
+mkdir ~/JoAT/Ps_Manager/saved
+echo "Dir created"
+fi
+
+ps > ~/JoAT/Ps_Manager/saved2/ps_$(date +%T)

@@ -1,0 +1,3 @@
+#!/bin/sh
+rm -r ~/encrypted
+echo "Encrypted Directory Removed"

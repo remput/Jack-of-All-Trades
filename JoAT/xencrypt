@@ -1,0 +1,6 @@
+#!/bin/sh
+mkdir ~/.encrypted ~/encrypted
+encfs ~/.encrypted ~/encrypted
+
+echo "Encrypted Directory Created"
+

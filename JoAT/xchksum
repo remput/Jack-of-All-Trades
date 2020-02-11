@@ -1,2 +1,2 @@
 #!/bin/bash
-bash ~/JoAT/Check_Bad_Hashes/checkSum.pl
+bash ~/JoAT/Check_Bad_Hashes/callCheck.sh

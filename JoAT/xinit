@@ -1,6 +1,16 @@
+#!/bin/sh
 echo "
-xsave: Save ps to file
-xmount: mount device 
-xchksum: Check for viruses"
 
+xinit: Menu
+xsave
+xchksum: Checksum
+xchkps: Compare ps log files
+xdownload: Express Downloads
+
+Moving files to Vault:
+xdelencrypt - Delete Encrypted Directory
+xcryptpwd - Encrypt Present Working Directory
+xencrypt - Create Encrypted Directory
+xhide - Dismount Encrypted Directory
+xshow - Mount Encrypted Directory"
 

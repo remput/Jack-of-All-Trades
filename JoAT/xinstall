@@ -3,11 +3,27 @@ sudo cp xsave /usr/bin/
 sudo cp xchksum /usr/bin/
 sudo cp xchkps /usr/bin/
 sudo cp xtest /usr/bin/
+sudo cp xdelencrypt /usr/bin/
+sudo cp xdownload /usr/bin/
+sudo cp xcryptpwd /usr/bin/
+sudo cp xdownload /usr/bin/
+sudo cp xencrypt /usr/bin/
+sudo cp xhide /usr/bin/
+sudo cp xsavebaseline /usr/bin/
+sudo cp xshow /usr/bin/
 
 sudo chmod 755 /usr/bin/xinit
 sudo chmod 755 /usr/bin/xsave
-sudo chmod 755 /usr/bin/xchksum
-sudo chmod 755 /usr/bin/xchkps
-sudo chmod 755 /usr/bin/xtest
+sudo chmod 755 xchksum /usr/bin/xchksum
+sudo chmod 755 xchkps /usr/bin/xchkps
+sudo chmod 755 xtest /usr/bin/xtest
+sudo chmod 755 xdelencrypt /usr/bin/xdelencrypt
+sudo chmod 755 xdownload /usr/bin/xdownload
+sudo chmod 755 xcryptpwd /usr/bin/xcryptpwd
+sudo chmod 755 xdownload /usr/bin/xdownload
+sudo chmod 755 xencrypt /usr/bin/xencrypt
+sudo chmod 755 xhide /usr/bin/xhide
+sudo chmod 755 xsavebaseline /usr/bin/xsavebaseline
+sudo chmod 755 xshow /usr/bin/xshow
 
 echo 'Successfully Installed, type xinit to start'

@@ -1,0 +1,4 @@
+   PID TTY          TIME CMD
+  5252 pts/2    00:00:00 bash
+  5418 pts/2    00:00:00 xcreatepslog
+  5420 pts/2    00:00:00 ps

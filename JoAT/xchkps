@@ -4,5 +4,13 @@ echo "1: Compare two ps log files manually saved? (Please run xcreatepslog twice
 echo "2: Compare current ps log vs baseline ps log saved beforehand (Please run xsavebaseline first)"
 echo "3: Save ps log with current timestamp"
 
-
-
+read option
+if [ $option="1" ]
+then bash ~/JoAT/Ps_Manager/xchksum1
+elif [ $option="2" ]
+then bash ~/JoAT/Ps_Manager/xchksum2
+elif [ $option="3" ]
+then bash ~/JoAT/Ps_Manager/xchksum3
+else
+echo "Invalid option"
+fi
